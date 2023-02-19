@@ -1,12 +1,5 @@
-import React, { Fragment } from "react";
-import ReactDOM from "react-dom";
-
-const App = () => {
-  return (
-    <Fragment>
-      <h1>DynamoDBについて</h1>
-    </Fragment>
-  );
-};
-
-ReactDOM.render(<App />, document.getElementById("root"));
+import { createRoot } from "react-dom/client";
+import App from "./App";
+const container = document.getElementById("root");
+const root = createRoot(container); // createRoot(container!) if you use TypeScript
+root.render(<App tab="home" />);
