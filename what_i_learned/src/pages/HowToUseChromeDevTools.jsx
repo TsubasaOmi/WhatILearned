@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-const AboutDynamoDB = () => {
+const HowToUseChromeDevTools = () => {
   return (
     <div>
-      <h1>Dynamo DBについて学ぼう！</h1>
+      <h1>Chrome DevToolsについて学ぼう！</h1>
       <p></p>
       <Link to="/">
         <button>Home Page</button>
@@ -12,4 +12,4 @@ const AboutDynamoDB = () => {
   );
 };
 
-export default AboutDynamoDB;
+export default HowToUseChromeDevTools;
