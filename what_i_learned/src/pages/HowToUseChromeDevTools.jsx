@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import ChromeDevTools from "../assets/images/ChromeDevTools.png";
+import HomePageLink from "../components/HomePageLink";
 
 const HowToUseChromeDevTools = () => {
   return (
@@ -12,9 +12,7 @@ const HowToUseChromeDevTools = () => {
         className="img-size"
       ></img>
       <p></p>
-      <Link to="/">
-        <button>Home Page</button>
-      </Link>
+      <HomePageLink></HomePageLink>
     </div>
   );
 };

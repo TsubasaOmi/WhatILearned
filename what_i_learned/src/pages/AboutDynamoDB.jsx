@@ -1,13 +1,11 @@
-import { Link } from "react-router-dom";
+import HomePageLink from "../components/HomePageLink";
 
 const AboutDynamoDB = () => {
   return (
     <div>
       <h1>Dynamo DBについて学ぼう！</h1>
       <p></p>
-      <Link to="/">
-        <button>Home Page</button>
-      </Link>
+      <HomePageLink></HomePageLink>
     </div>
   );
 };
