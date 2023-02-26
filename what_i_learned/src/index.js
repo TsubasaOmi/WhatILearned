@@ -1,6 +1,8 @@
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./assets/styles/style.css";
 import AboutDynamoDB from "./pages/AboutDynamoDB";
+import ECS from "./pages/ECS";
 import HomePage from "./pages/HomePage";
 import HowToUseChromeDevTools from "./pages/HowToUseChromeDevTools";
 
@@ -14,6 +16,7 @@ function App() {
           path="/howtousechromedevtools"
           element={<HowToUseChromeDevTools />}
         />
+        <Route path="/ecs" element={<ECS />} />
       </Routes>
     </Router>
   );
