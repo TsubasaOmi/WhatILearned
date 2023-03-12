@@ -1,0 +1,93 @@
+/*サイトの上部にあるメニュー部分のスタイル*/
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 0 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.header-menu a:hover {
+  color: #0078d4;
+}
+
+/*トップページのコンテンツ部分のスタイル*/
+.top-container {
+  background-image: url(https://monozukuri-c.com/wp-content/themes/monozukuri-c/images/top/main_img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.top-btn {
+  display: inline-block;
+  background-color: #0078d4;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.top-btn:hover {
+  background-color: #005a9e;
+}
+
+/*トップページのフッター部分のスタイル*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
