@@ -4,6 +4,7 @@ import "./assets/styles/style.css";
 import AboutDynamoDB from "./pages/AboutDynamoDB";
 import ECS from "./pages/ECS";
 import HomePage from "./pages/HomePage";
+import HowToSetUpDynamoDBInAmplify from "./pages/HowToSetUpDynamoDBInAmplify";
 import HowToUseChromeDevTools from "./pages/HowToUseChromeDevTools";
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/aboutdynamodb" element={<AboutDynamoDB />} />
+        <Route
+          path="/howtosetupdynamodbinamplify"
+          element={<HowToSetUpDynamoDBInAmplify />}
+        />
         <Route
           path="/howtousechromedevtools"
           element={<HowToUseChromeDevTools />}
