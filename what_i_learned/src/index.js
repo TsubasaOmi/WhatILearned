@@ -1,11 +1,12 @@
 import { createRoot } from "react-dom/client";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./assets/styles/style.css";
 import AboutDynamoDB from "./pages/AboutDynamoDB";
 import ECS from "./pages/ECS";
 import HomePage from "./pages/HomePage";
 import HowToSetUpDynamoDBInAmplify from "./pages/HowToSetUpDynamoDBInAmplify";
 import HowToUseChromeDevTools from "./pages/HowToUseChromeDevTools";
+import LearningCss from "./pages/LearningCss";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           element={<HowToUseChromeDevTools />}
         />
         <Route path="/ecs" element={<ECS />} />
+        <Route path="/learningcss" element={<LearningCss />} />
       </Routes>
     </Router>
   );

@@ -13,6 +13,8 @@ const HomePage = () => {
       <Link to="/howtousechromedevtools">Chrome DevToolsの使い方</Link>
       <p></p>
       <Link to="/ecs">ECSについて</Link>
+      <p></p>
+      <Link to="/learningcss">CSS学習</Link>
     </div>
   );
 };
