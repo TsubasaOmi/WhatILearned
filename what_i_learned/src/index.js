@@ -3,14 +3,20 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./assets/styles/style.css";
 import AboutDynamoDB from "./pages/AboutDynamoDB";
 import ECS from "./pages/ECS";
+import Header from "./pages/Header";
 import HomePage from "./pages/HomePage";
 import HowToSetUpDynamoDBInAmplify from "./pages/HowToSetUpDynamoDBInAmplify";
 import HowToUseChromeDevTools from "./pages/HowToUseChromeDevTools";
 import LearningCss from "./pages/LearningCss";
+import PracticeJS from "./pages/PracticeJS";
 
+/*
+TODO: サルワカのヘッダーのような共通コンポーネントを作る
+*/
 function App() {
   return (
     <Router>
+      <Header></Header>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route path="/aboutdynamodb" element={<AboutDynamoDB />} />
@@ -24,6 +30,7 @@ function App() {
         />
         <Route path="/ecs" element={<ECS />} />
         <Route path="/learningcss" element={<LearningCss />} />
+        <Route path="/practicejs" element={<PracticeJS />} />
       </Routes>
     </Router>
   );

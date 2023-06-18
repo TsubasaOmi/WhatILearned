@@ -1,0 +1,27 @@
+.navigation-box {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.navigation-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+}
+
+.navigation-menu li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navigation-menu li a:hover {
+  background-color: #ddd;
+}
