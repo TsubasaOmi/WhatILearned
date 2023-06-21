@@ -1,0 +1,8 @@
+/*
+   This CSS modules for the component in which when NavagationBox.jsx
+   jumps to the element, you can adjust the offset.
+ */
+
+.content-container p {
+  scroll-margin-top: 50px; // Adjust this value to set the desired offset
+}

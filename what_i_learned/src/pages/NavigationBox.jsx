@@ -1,52 +1,29 @@
-import React from "react";
-import styles from "./NavigationBox.module.css";
+/*
+   if you want to adjust the offset of the part that is jumped from
+   the NavigationBox,
+   * use ContentContainer.scss
+ */
+
+import styles from "./NavigationBox.module.scss";
 
 const NavigationBox = () => {
-  const handleLinkClick = () => {
-    // Handle click event if needed
-  };
-
   return (
-    <div className={styles["navigation-box"]}>
+    <nav className={styles["navigation-box"]}>
       <ul className={styles["navigation-menu"]}>
-        <li className={styles["navigation-menu__item"]}>
-          <a
-            href="#"
-            className={styles["navigation-menu__link"]}
-            onClick={handleLinkClick}
-          >
-            Home
-          </a>
+        <li>
+          <a href="#section1">Home</a>
         </li>
-        <li className={styles["navigation-menu__item"]}>
-          <a
-            href="#"
-            className={styles["navigation-menu__link"]}
-            onClick={handleLinkClick}
-          >
-            About
-          </a>
+        <li>
+          <a href="#section2">About</a>
         </li>
-        <li className={styles["navigation-menu__item"]}>
-          <a
-            href="#"
-            className={styles["navigation-menu__link"]}
-            onClick={handleLinkClick}
-          >
-            Services
-          </a>
+        <li>
+          <a href="#section3">Services</a>
         </li>
-        <li className={styles["navigation-menu__item"]}>
-          <a
-            href="#"
-            className={styles["navigation-menu__link"]}
-            onClick={handleLinkClick}
-          >
-            Contact
-          </a>
+        <li>
+          <a href="#section4">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 

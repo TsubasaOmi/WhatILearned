@@ -1,24 +1,10 @@
-import styles from "./PracticeJS.module.scss";
+import styles from "./ContentContainer.module.scss";
+import NavigationBox from "./NavigationBox";
 
 const PracticeJS = () => {
   return (
     <div>
-      <nav className={styles["navigation-box"]}>
-        <ul className={styles["navigation-menu"]}>
-          <li>
-            <a href="#section1">Home</a>
-          </li>
-          <li>
-            <a href="#section2">About</a>
-          </li>
-          <li>
-            <a href="#section3">Services</a>
-          </li>
-          <li>
-            <a href="#section4">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <NavigationBox></NavigationBox>
 
       <div className={styles["content-container"]}>
         <p id="section1">
