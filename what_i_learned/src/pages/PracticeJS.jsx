@@ -3,22 +3,24 @@ import styles from "./PracticeJS.module.scss";
 const PracticeJS = () => {
   return (
     <div>
-      <div class="navigation-box">
+      <nav className={styles["navigation-box"]}>
         <ul className={styles["navigation-menu"]}>
           <li>
             <a href="#section1">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#section2">About</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#section3">Services</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#section4">Contact</a>
           </li>
         </ul>
+      </nav>
 
+      <div className={styles["content-container"]}>
         <p id="section1">
           test1test1test1test1test1test1test1test1test1<br></br>
           test1test1test1test1test1test1test1test1test1<br></br>
@@ -39,7 +41,7 @@ const PracticeJS = () => {
           test1test1test1test1test1test1test1test1test1<br></br>
           test1test1test1test1test1test1test1test1test1<br></br>
         </p>
-        <p>
+        <p id="section2">
           test2test2test2test2test2test2test2test2test2<br></br>
           test2test2test2test2test2test2test2test2test2<br></br>
           test2test2test2test2test2test2test2test2test2<br></br>
@@ -59,7 +61,7 @@ const PracticeJS = () => {
           test2test2test2test2test2test2test2test2test2<br></br>
           test2test2test2test2test2test2test2test2test2<br></br>
         </p>
-        <p>
+        <p id="section3">
           test3test3test3test3test3test3test3test3<br></br>
           test3test3test3test3test3test3test3test3test3<br></br>
           test3test3test3test3test3test3test3test3test3<br></br>
@@ -78,6 +80,90 @@ const PracticeJS = () => {
           test3test3test3test3test3test3test3test3test3<br></br>
           test3test3test3test3test3test3test3test3test3<br></br>
           test3test3test3test3test3test3test3test3test3<br></br>
+        </p>
+        <p id="section4">
+          test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4testtest4test4test4test4test4test4test4test4test4
+          <br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4testtest4test4test4test4test4test4test4test4test4
+          <br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4testtest4test4test4test4test4test4test4test4test4
+          <br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4testtest4test4test4test4test4test4test4test4test4
+          <br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
+          test4test4test4test4test4test4test4test4test4<br></br>
         </p>
       </div>
 

@@ -17,6 +17,8 @@ const HomePage = () => {
       <Link to="/learningcss">CSS学習</Link>
       <p></p>
       <Link to="/practicejs">JS練習</Link>
+      <p></p>
+      <Link to="/awstraningreview">AWS研修</Link>
     </div>
   );
 };
