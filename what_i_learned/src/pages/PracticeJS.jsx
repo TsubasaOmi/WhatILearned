@@ -1,5 +1,5 @@
+import NavigationBox from "../components/NavigationBox";
 import styles from "./ContentContainer.module.scss";
-import NavigationBox from "./NavigationBox";
 
 const PracticeJS = () => {
   return (

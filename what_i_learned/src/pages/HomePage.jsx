@@ -19,6 +19,7 @@ const HomePage = () => {
       <Link to="/practicejs">JS練習</Link>
       <p></p>
       <Link to="/awstraningreview">AWS研修</Link>
+      <p></p>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import ChromeDevTools from "../assets/images/ChromeDevTools.png";
-import HomePageLink from "../components/HomePageLink";
 
 const HowToUseChromeDevTools = () => {
   return (
@@ -12,7 +11,6 @@ const HowToUseChromeDevTools = () => {
         className="img-size"
       ></img>
       <p></p>
-      <HomePageLink></HomePageLink>
     </div>
   );
 };

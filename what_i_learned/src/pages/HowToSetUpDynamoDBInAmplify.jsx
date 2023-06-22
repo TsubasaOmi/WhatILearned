@@ -1,4 +1,3 @@
-import HomePageLink from "../components/HomePageLink";
 import IndexForPage from "../components/IndexForPage";
 
 const HowToSetUpDynamoDBInAmplify = () => {
@@ -106,8 +105,6 @@ const HowToSetUpDynamoDBInAmplify = () => {
       <p>
         testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
       </p>
-
-      <HomePageLink></HomePageLink>
     </div>
   );
 };
